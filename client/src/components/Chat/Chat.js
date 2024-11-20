@@ -20,7 +20,7 @@ const Chat = ({location}) => {
   const [users, setUsers] = useState('');
   const [message , setMessage] = useState('');
   const [messages , setMessages] = useState([]);
-  const ENDPOINT = 'https://chat-app17.herokuapp.com/';
+  const ENDPOINT = 'https://chat-app-t8sb.vercel.app/';
 
   //Gives multiple output results , so for only 1 output , return o/p
   // only when there are any changes
